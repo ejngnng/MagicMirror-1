@@ -11,7 +11,7 @@ var config = {
         interval: 120000,
         fadeInterval: 10000,
         params: {
-            q: 'dalian',
+            q: 'beijing',
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
             lang: 'zh_cn',
@@ -30,14 +30,14 @@ var config = {
         interval: 30000,
         fadeInterval: 4000,
         morning: [
-            'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            '早上好!',
+            '开心每一天!',
+            '昨晚睡的好吗?'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            '中午好!',
+            '今天看起来很屌!',
+            '今天看起来不错!'
         ],
         evening: [
             'Wow, you look hot!',
@@ -52,7 +52,7 @@ var config = {
         urls: [
 		{
 			symbol: 'calendar-plus-o',
-			url: ''
+			url: 'https://www.google.com/calendar/ical/akvbisn5iha43idv0ktdalnor4%40group.calendar.google.com/public/basic.ics'
 		},
 		// {
 		// 	symbol: 'soccer-ball-o',
@@ -71,8 +71,8 @@ var config = {
 			// url: "https://server/url/to/theirs.ics",
 		// },
 		]
-    },
-    news: {
-        feed: 'http://headlines.yahoo.co.jp/rss/zdn_ait-c_sci.xml'
     }
+    // news: {
+    //     feed: 'http://headlines.yahoo.co.jp/rss/zdn_ait-c_sci.xml'
+    // }
 }
