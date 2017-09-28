@@ -9,7 +9,7 @@
 	<script type="text/javascript">
 		var gitHash = '<?php echo trim(`git rev-parse HEAD`) ?>';
 	</script>
-	<meta name="google" value="notranslate" />
+	<meta name="google" value="translate" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
@@ -20,7 +20,8 @@
 	<div class="center-ver center-hor"><!-- <div class="dishwasher light">Vaatwasser is klaar!</div> --></div>
   <div class="center-ver-temp center-hor"></div>
 	<div class="lower-third center-hor"><div class="compliment light"></div></div>
-	<div class="bottom center-hor"><div class="temhum medium"></div><br /><div class="news medium"></div></div>
+	<div class="bottom center-hor"><div class="temhum medium"></div><br />
+	<!--<div class="news medium"></div></div> -->
 
 </div>
 
